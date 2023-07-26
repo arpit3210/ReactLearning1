@@ -12,6 +12,9 @@ function NetflixRegisterComponent() {
   </div>
 </div>
 
+
+
+
     </div>
     );
 }
