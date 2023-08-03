@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
-
+// import App from './App';
+import NetflixIndexComponent from './components/NetflixIndexComponent';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 
 
-import NetflixRegisterComponent from './components/NetflixRegisterComponent';
+// import NetflixRegisterComponent from './components/NetflixRegisterComponent';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -17,11 +17,11 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
 
-<NetflixRegisterComponent/>
+{/* <NetflixRegisterComponent/> */}
 
+<NetflixIndexComponent/>
 
-
-<App/>
+{/* <App/> */}
   </React.StrictMode>
 );
 

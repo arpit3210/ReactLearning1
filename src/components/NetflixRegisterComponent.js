@@ -1,22 +1,23 @@
 
 function NetflixRegisterComponent() {
-    return (
-    
-    <div>
- <div className="card" >
-  <img className="card-img-top" alt="..."/>
-  <div className="card-body">
-    <h5 className="card-title">Card title</h5>
-    <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="" className="btn btn-primary">Go somewhere</a>
-  </div>
-</div>
+  return (
+
+    <div >
 
 
+      <p className="text-center">Ready to watch ? Enter your email to create or restart your membership now</p>
+
+      <div className="input-group input-group-lg">
+        <input type="email" className="form-control" />
+        <button className="btn btn-danger">
+          Get Started
+          <span className="bi bi-chevron-right"></span>
+        </button>
+      </div>
 
 
     </div>
-    );
+  );
 }
 
 export default NetflixRegisterComponent;
