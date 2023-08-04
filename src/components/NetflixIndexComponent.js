@@ -10,25 +10,27 @@ export default function NetflixIndexComponent() {
         <div className="container-fluid ">
             <div className='box'>
 
-<header>
-<NetflixHeaderComponent/>
+                <header>
+                    <NetflixHeaderComponent />
 
-</header>
+                </header>
 
-<section className='d-flex justify-content-center align-items-center'>
-    <main>
-        <NetflixMainComponents/>
-        <NetflixRegisterComponent/>
-        <LoginComponent/>
-    </main>
-</section>
+                <section className='d-flex justify-content-center align-items-center'>
+                    <main>
+                        <NetflixMainComponents />
+                        <NetflixRegisterComponent />
+                        <LoginComponent />
+                    </main>
+                </section>
 
-<section>
-    <footer className='m-2 p-2 bg-black'>
-        <NetflixFooterComponent/>
-    </footer>
-</section>
+
             </div>
+
+            <section>
+                <footer className=' bg-black'>
+                    <NetflixFooterComponent />
+                </footer>
+            </section>
         </div>
     )
 }
