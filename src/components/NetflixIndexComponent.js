@@ -3,6 +3,7 @@ import NetflixHeaderComponent from './NetflixHeaderComponent'
 import NetflixMainComponents from './NetflixMainComponent'
 import NetflixRegisterComponent from './NetflixRegisterComponent'
 import NetflixFooterComponent from './NetflixFooterComponent'
+import LoginComponent from './LoginComponent'
 
 export default function NetflixIndexComponent() {
     return (
@@ -18,6 +19,7 @@ export default function NetflixIndexComponent() {
     <main>
         <NetflixMainComponents/>
         <NetflixRegisterComponent/>
+        <LoginComponent/>
     </main>
 </section>
 
@@ -26,7 +28,6 @@ export default function NetflixIndexComponent() {
         <NetflixFooterComponent/>
     </footer>
 </section>
-
             </div>
         </div>
     )
