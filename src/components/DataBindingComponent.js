@@ -12,6 +12,14 @@ export default function DataBindingComponent() {
 
     var categories = ["All", "Electronics", "Footwear", "Fashion"]
 
+
+    let StockDetails =[
+        
+            {Name : 'Samsung TV', Price : 23465.435},
+            {Name : 'Blockchain', Price : 5.435}
+        
+    ]
+
     return (
         <div className="container">
             <h1>Product Details (Binding Objects)</h1>
@@ -29,10 +37,6 @@ export default function DataBindingComponent() {
                     {(Product.Stock === true) ? "Available" : "Not Available Out of Stock"}
                 </dd>
             </dl>
-
-
-
-
 
             <h2>Categories  (Binding data collection/array   to   print/show/get)</h2>
             <ol>
@@ -52,10 +56,31 @@ export default function DataBindingComponent() {
                         <option key={category} value={category}> {category}</option>
                     )
                 }
-
-
-
             </select>
+
+{/* How to show data in table format */}
+
+<h1>Table for StockDetails and Price</h1>
+<table className="table table-hover">
+    <thead>
+       <tr>
+        <th>Name</th>
+        <th>Price</th>
+
+       </tr>
+    </thead>
+    <tbody>
+        {
+            StockDetails.map(items => 
+                <tr>
+                    <td>{items.Name}</td>
+                    <td>{items.Price}</td>
+                </tr>
+                )
+        }
+    </tbody>
+</table>
+
         </div>
     )
 

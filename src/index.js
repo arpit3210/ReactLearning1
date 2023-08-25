@@ -10,7 +10,8 @@ import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-import DataBindingComponent from './components/DataBindingComponent';
+// import DataBindingComponent from './components/DataBindingComponent';
+import DataBindingComponents from './components/DataBindingComponenets';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,8 +19,11 @@ root.render(
     {/* <App /> */}
 
 {/* <RegisterComponent/> */}
-<DataBindingComponent/>
+{/* <DataBindingComponent/> */}
 {/* <NetflixIndexComponent/> */}
+{/* <DataBindingComponents/> */}
+
+
 
 {/* <App/> */}
   </React.StrictMode>
