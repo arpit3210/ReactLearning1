@@ -11,7 +11,8 @@ import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import DataBindingComponent from './components/DataBindingComponent';
-import DataBindingComponents from './components/DataBindingComponenets';
+// import DataBindingComponents from './components/DataBindingComponenets';
+import DataTwoWayBinding from './components/DataTwoWayBinding';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,7 +24,7 @@ root.render(
 {/* <NetflixIndexComponent/> */}
 {/* <DataBindingComponents/> */}
 
-
+<DataTwoWayBinding/>
 
 {/* <App/> */}
   </React.StrictMode>
