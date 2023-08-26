@@ -12,7 +12,13 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 // import DataBindingComponent from './components/DataBindingComponent';
 // import DataBindingComponents from './components/DataBindingComponenets';
-import DataTwoWayBinding from './components/DataTwoWayBinding';
+// import DataTwoWayBinding from './components/DataTwoWayBinding';
+//  import DataBindingUseState from './components/DataBindingUseState';
+// import DataApiBindingComponent from './components/DataApiBindingComponent';
+// import RealCryptoDataComponent from './components/RealCryptoDataComponent';
+
+import { Card } from './components/Card';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -23,8 +29,12 @@ root.render(
 {/* <DataBindingComponent/> */}
 {/* <NetflixIndexComponent/> */}
 {/* <DataBindingComponents/> */}
+{/* <DataTwoWayBinding/> */}
+{/* <DataBindingUseState/> */}
+{/* <DataApiBindingComponent/> */}
+{/* <RealCryptoDataComponent/> */}
 
-<DataTwoWayBinding/>
+
 
 {/* <App/> */}
   </React.StrictMode>
