@@ -15,6 +15,8 @@ import { useState } from "react";
 // }
 
 
+  // Data Binding fetch data from api
+
 function DataBindingUseState()
 {
     const [getValue, setValue] = useState(["Blockchain Learning", "Token Engineering", "Tokenomics"]);

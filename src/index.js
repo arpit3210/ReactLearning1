@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-// import App from './App';
+import App from './App';
 // import NetflixIndexComponent from './components/NetflixIndexComponent';
 
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
@@ -17,13 +17,11 @@ import reportWebVitals from './reportWebVitals';
 // import DataApiBindingComponent from './components/DataApiBindingComponent';
 // import RealCryptoDataComponent from './components/RealCryptoDataComponent';
 
-import { Card } from './components/Card';
-
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <App /> */}
+    <App />
 
 {/* <RegisterComponent/> */}
 {/* <DataBindingComponent/> */}
